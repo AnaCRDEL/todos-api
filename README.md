@@ -1,6 +1,6 @@
 ## **Todos API solution**
 
-#### Solution for [ironhack-lab-todos-api](https://gist.github.com/gsicuto/e9af6d426185c53a9470e61c44b7e8e6)
+#### Solution to [ironhack-lab-todos-api](https://gist.github.com/gsicuto/e9af6d426185c53a9470e61c44b7e8e6)
 #### Front-end repository link:  [lab-todo-client](https://github.com/D-Kunrath/lab-todo-client)
 
 #
@@ -40,10 +40,3 @@ http://localhost:<PORT>
 | POST   | /todos     | {"title":String, "completed": Bollean} | {todo}    | Create New Todo            |
 | PUT    | /todos/:id | {"title":String, "completed": Bollean} | {todo}    | Update Existing Todo by Id |
 | DELETE | /todos/:id | \-                                     | \-        | Deletes todo               |
-
-#
-### Response fields:
-todo: {
-    title: String,
-    completed: Boolean
-}
