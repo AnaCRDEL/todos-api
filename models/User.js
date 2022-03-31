@@ -15,6 +15,9 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
+  image: {
+    type: String
+  },
   todos: [{
     type: Schema.Types.ObjectId,
     ref: 'Todo',

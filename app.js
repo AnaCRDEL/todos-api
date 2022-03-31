@@ -21,4 +21,6 @@ app.use(require('./middlewares/auth.middleware'));
 
 app.use('/todos', require('./routes/todos.routes.js'));
 
+app.use('/user', require('./routes/user.routes'))
+
 app.listen(process.env.PORT, () => console.log(`Server listen on Port ${process.env.PORT}`))
